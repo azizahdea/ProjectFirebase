@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginVertical="5dp">
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="TextView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textNama"
+            android:textSize="18sp"
+            android:layout_marginRight="30dp"/>
+        <TextView
+            android:text="TextView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textStatus"
+            android:textSize="18sp"
+            android:layout_marginRight="30dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/TextUpdate"
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:text="Edit"
+            android:textSize="10dp"
+            android:backgroundTint="#202020"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/TextDelete"
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:text="Hapus"
+            android:textSize="10dp"
+            android:backgroundTint="#900A22"/>
+
+    </LinearLayout>
+</LinearLayout>
